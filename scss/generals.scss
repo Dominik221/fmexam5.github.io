@@ -1,0 +1,111 @@
+body {
+    min-height: 100vh;
+    background-color: $color-bg-body;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: $font-family;
+
+    background-image:   url(../images/bg-pattern-bottom-desktop.svg), 
+                        url(../images/bg-pattern-top-desktop.svg);
+    background-size: 100%;                    
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 5vw bottom -35vh, left -40vw top -30vh;
+}
+
+
+
+.heading {   
+    h1 {
+        width: 70%;
+        margin-bottom: 1.5625rem;
+    }
+
+    p {
+        width: 80%;
+    }
+}
+
+.rated {
+    width: 80%;
+    background-color: lighten($color-bg-rated, 31%);
+    margin-bottom: .8125rem;
+    padding: .625rem;
+    border-radius: .6875rem;
+    -webkit-border-radius: .6875rem;
+    -moz-border-radius: .6875rem;
+    -ms-border-radius: .6875rem;
+    -o-border-radius: .6875rem;
+
+    span {
+        text-align: center;
+        line-height: 2.5;
+        margin-left: 1.5625rem;
+    }
+
+    img:nth-child(1) {
+        margin-left: 1.5625rem;
+    }
+
+    &.guru {
+        margin-left: 3.125rem;
+    }
+
+    &.besttech {
+        margin-left: 6.25rem;
+    }
+}
+
+.testimonial {
+    padding: 3.125rem 2.8125rem;
+    max-width: 30.5%;
+    margin: 5.3125rem .9375rem;
+    background-color: $color-bg-testimonial;
+    border-radius: .5625rem;
+    -webkit-border-radius: .5625rem;
+    -moz-border-radius: .5625rem;
+    -ms-border-radius: .5625rem;
+    -o-border-radius: .5625rem;
+    
+    h2{
+        font-size: .9375rem;
+        color: $color-names; 
+        margin-bottom: .3125rem;
+    }
+
+    h3 {
+        font: {
+            size: .9375rem;
+            weight: 400;
+        }
+        color: $color-buyer;
+        margin-bottom: 2rem;
+    }
+
+    p {
+        font-weight: 400;
+        color: $color-names;
+    }
+
+    &.colton {
+        height: 18.75rem;
+    }
+
+    &.irene {
+        height: 18.75rem;
+        margin-top: 6.25rem 
+    }
+
+    &.anne {
+        height: 18.75rem;
+        margin-top: 7.1875rem;
+        margin-right: 0rem;
+    }
+}
+
+
+
+
+

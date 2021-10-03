@@ -1,0 +1,30 @@
+h1,
+h2,
+h3,
+p,
+span {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    line-height: 1;
+    color: $color-bg-testimonial;
+    font: {
+        size: 3.375rem;
+        weight: 700;
+    }
+}
+
+p {
+    font-weight: 500;
+    color: $color-bg-rated;
+}
+
+span {
+    font-weight: 700;
+    color: $color-bg-testimonial;
+}
+
+
+
