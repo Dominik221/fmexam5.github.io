@@ -17,8 +17,8 @@ This is a solution to the [Social proof section on Frontend Mentor](https://www.
 
 ### Links
 
-- [Solution URL:](https://www.frontendmentor.io/solutions/profile-card-component-with-scss-mlq269O2S)
-- [Live Site URL:](https://dominik221.github.io/fmexam4.github.io/)
+- [Solution URL:](https://www.frontendmentor.io/solutions/social-proof-section-with-scss-Pha6xoHEU)
+- [Live Site URL:](https://dominik221.github.io/fmexam5.github.io/)
 
 ## My process
 
